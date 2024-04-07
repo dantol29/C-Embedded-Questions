@@ -24,7 +24,7 @@ The collection of the questions about C/C++ embedded progrramming
 >  Inline expansion means that the compiler replaces the function call with the actual body of the function wherever the function is called, rather than generating a separate function call.
 >  Inlining can improve performance by avoiding the overhead associated with function calls, especially for small, frequently-called functions.
 
-## 6. Explain `__interupt`, `__irq` keywords
+## 6. Explain `__interrupt`, `__irq` keywords
 > It is used to declare interrupt service routines (ISRs) . Routine is a function that is executed in response to an interrupt signal from hardware, such as a timer overflow, GPIO pin change, or peripheral event.
 > When an interrupt occurs, the processor looks up the corresponding ISR address in the IVT to determine which ISR to execute
 
